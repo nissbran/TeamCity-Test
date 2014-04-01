@@ -15,7 +15,7 @@ namespace HelloWorldTest
 
         public static string GetHelloWorld()
         {
-            throw new NotImplementedException();
+            return "Hello World!";
         }
     }
 }
