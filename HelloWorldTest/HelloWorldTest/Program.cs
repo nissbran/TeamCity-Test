@@ -6,11 +6,16 @@ using System.Threading.Tasks;
 
 namespace HelloWorldTest
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
             Console.WriteLine("Hello world team city");
+        }
+
+        public static string GetHelloWorld()
+        {
+            throw new NotImplementedException();
         }
     }
 }
