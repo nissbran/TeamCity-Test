@@ -13,5 +13,11 @@ namespace HelloWorldUnitTest
 
             Assert.AreEqual("Hello World!", helloWorldString);
         }
+
+        [TestMethod]
+        public void TestTrue()
+        {
+            Assert.AreEqual(true, true);
+        }
     }
 }
